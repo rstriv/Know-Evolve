@@ -1,5 +1,5 @@
 # Know-Evolve
-This repository holds code for ICML '17 paper: "[Know-Evolve: Deep Temporal Reasoning for Dynamic Knowledge Graphs](http://proceedings.mlr.press/v70/trivedi17a/trivedi17a.pdf)"
+This repository holds code for ICML '17 paper: "Know-Evolve: Deep Temporal Reasoning for Dynamic Knowledge Graphs"
 
 ## Install
 To get source code, run:
