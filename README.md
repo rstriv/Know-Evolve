@@ -41,7 +41,7 @@ cd code/know_evolve
 ```
 You can change various hyper-parameters and try your own dataset using configurations in these files.
 
-#### Contact: rstrivedi AT gatech DOT edu
+#### For any questions, please contact: rstrivedi AT gatech DOT edu
 
 ## Reference
 ```
