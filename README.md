@@ -15,7 +15,7 @@ There are two steps required for complete installation:
 ```
 cd code/graphnn_base
 ```
-Please follow the intallation instructions provided on [Readme](https://github.gatech.edu/rtrivedi6/Know-Evolve/tree/master/code/graphnn_base) page. This is an obsolete and slightly modified version of [graphnn](https://github.com/Hanjun-Dai/graphnn) library.
+Please follow the intallation instructions provided on [Readme](https://github.gatech.edu/rtrivedi6/Know-Evolve/tree/master/code/graphnn_base) page. This is an obsolete and slightly modified version of graphnn library.
 
 2. Build Know-Evolve Code:
 
