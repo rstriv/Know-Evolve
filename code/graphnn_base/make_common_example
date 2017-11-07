@@ -1,0 +1,14 @@
+dir_guard = @mkdir -p $(@D)
+
+FIND := find
+CXX := g++
+NVCC := $(CUDA_HOME)/bin/nvcc
+CXXFLAGS += -Wall -O2 -std=c++11 -fopenmp -Ipath/to/cppformat/ 
+XXFLAGS += -Ipath/to/spiral-wht-1.8
+LDFLAGS += -lm -L$(CUDA_HOME)/lib64 -Lpath/to/cppformat/build/fmt -L$(HOME)path/to/spiral-wht-1.8 -Lpath/to/intel/compiler/12.1.4/compiler/lib/intel64 -Lpath/to/intel/mkl/11.2/lib/intel64 -lcudart -lcublas -lcurand -lcusparse -lmkl_rt -lfmt -lwht
+CUDA_ARCH := -gencode arch=compute_20,code=sm_20 \
+		-gencode arch=compute_20,code=sm_21 \
+		-gencode arch=compute_30,code=sm_30 \
+		-gencode arch=compute_35,code=sm_35 \
+		-gencode arch=compute_50,code=sm_50 \
+		-gencode arch=compute_50,code=compute_50
