@@ -5,7 +5,7 @@ This repository holds code for ICML '17 paper: "[Know-Evolve: Deep Temporal Reas
 To get source code, run:
 
 ```
-git clone https://github.gatech.edu/rtrivedi6/Know-Evolve.git
+git clone https://github.com/rstriv/Know-Evolve.git
 ```
 
 There are two steps required for complete installation:
