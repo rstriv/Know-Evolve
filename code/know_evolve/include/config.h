@@ -80,11 +80,11 @@ struct cfg
     		if (strcmp(argv[i], "-warm") == 0)
     			warm = atoi(argv[i + 1]);
     		if (strcmp(argv[i], "-n_samples") == 0)
-    			warm = atoi(argv[i + 1]);
+    			num_samples = atoi(argv[i + 1]);
     		if (strcmp(argv[i], "-min_dur") == 0)
-    			warm = atoi(argv[i + 1]);
+    			min_dur = atoi(argv[i + 1]);
     		if (strcmp(argv[i], "-max_dur") == 0)
-    			warm = atoi(argv[i + 1]);
+    			max_dur = atoi(argv[i + 1]);
     		if (strcmp(argv[i], "-skip") == 0)
     			skip = atoi(argv[i + 1]);
         }
